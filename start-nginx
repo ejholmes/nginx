@@ -1,0 +1,5 @@
+#!/bin/bash
+
+erb /etc/nginx/nginx.conf.erb > /etc/nginx/nginx.conf
+
+exec nginx;
